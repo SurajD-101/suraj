@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - Our Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #222;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .service-item {
+      background: #eee;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .service-item:hover {
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .service-item h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-logo">Our Products</div>
+    <ul> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html" style="text-decoration: underline;">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Our Services</h1>
+    <p>We’re dedicated to making your shopping experience as smooth and satisfying as possible. Here’s how we serve you:</p>
+
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Fast & Reliable Shipping</h3>
+        <p>Get your orders delivered quickly with our trusted shipping partners, ensuring your products arrive safely and on time.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>24/7 Customer Support</h3>
+        <p>Our friendly support team is available anytime to assist you with inquiries, returns, or product information.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Easy Returns & Exchanges</h3>
+        <p>Not happy with your purchase? No worries! Our hassle-free return and exchange policy puts you at ease.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Product Customization</h3>
+        <p>Personalize select products to suit your style or needs — making your purchase truly one-of-a-kind.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Secure Payment</h3>
+        <p>Shop confidently with multiple safe and encrypted payment options designed for your convenience.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Gift Wrapping & Messaging</h3>
+        <p>Send thoughtful gifts with our special wrapping service and personalized message options.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+    &copy; 2025 Our Products. All rights reserved.
+  </footer>
+
+</body>
+</html>

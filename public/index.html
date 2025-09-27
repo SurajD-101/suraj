@@ -1,0 +1,148 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <h1>Our Products</h1>
+  <div class="products"></div>
+  <script src="script.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Navigation bar styling */
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Search form styles */
+    .search-form {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+
+    .search-form input[type="text"] {
+      padding: 6px 10px;
+      border-radius: 4px 0 0 4px;
+      border: none;
+      font-size: 14px;
+      outline: none;
+      width: 180px;
+    }
+
+    .search-form button {
+      padding: 6px 12px;
+      border: none;
+      background-color: #555;
+      color: white;
+      cursor: pointer;
+      border-radius: 0 4px 4px 0;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-form button:hover {
+      background-color: #777;
+    }
+
+    /* Page heading */
+    h1 {
+      margin: 20px;
+    }
+    footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 20px; /* white space inside footer */
+  text-align: center;
+  margin-top: 60px; /* space above footer */
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body class="home">
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-logo">Our Products</div>
+    <ul> 
+      <li>
+        <form class="search-form" action="/search" method="GET">
+          <input type="text" name="q" placeholder="Search products..." aria-label="Search products">
+          <button type="submit">Search</button>
+        </form>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      
+    </ul>
+  </nav>
+
+  <!-- Page Heading -->
+  <h1>Welcome to Our Products Page</h1>
+
+  <div class="products"></div>
+  <footer>
+  <div class="footer-content">
+    <p><strong>Our Products</strong> - Your one-stop e-commerce shop offering quality products and excellent service.</p>
+    <p>Contact us at: <a href="mailto:support@ourproducts.com">support@ourproducts.com</a> | Phone: +1 (555) 123-4567</p>
+    <p>&copy; 2025 Our Products. All rights reserved.</p>
+  </div>
+</footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
